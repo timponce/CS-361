@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency App</title>
+</head>
+
+<body>
+    <h1>Currency Converter App</h1>
+    <p>about........</p>
+    <form action="/convert" method="post">
+        <label for="cur1">From currency</label>
+        <select name="cur1" id="cur1">
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <label for="amt">Amount</label>
+        <input type="number" name="amt" id="amt">
+        <label for="cur2">To currency</label>
+        <select name="cur2" id="cur1">
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
